@@ -18,18 +18,72 @@
         </div>
         <!-- Menu items -->
         <div class="hidden md:flex space-x-6">
-          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
-          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          <a href="#" class="hover:text-darkGrayishBlue duration-300"
+            >Pricing</a
+          >
+          <a href="#" class="hover:text-darkGrayishBlue duration-300"
+            >Product</a
+          >
+          <a href="#" class="hover:text-darkGrayishBlue duration-300"
+            >About Us</a
+          >
+          <a href="#" class="hover:text-darkGrayishBlue duration-300"
+            >Careers</a
+          >
+          <a href="#" class="hover:text-darkGrayishBlue duration-300"
+            >Community</a
+          >
         </div>
         <!-- Button -->
         <button
-          class="hidden md:block py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+          class="hidden md:block py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight duration-300"
         >
           Get Started
         </button>
+
+        <!-- Hamburger icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-3 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a
+            href="#"
+            class="hover:text-brightRed duration-300 w-full text-center py-1 active:bg-brightRed active:text-white"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="hover:text-brightRed duration-300 w-full text-center py-1 active:bg-brightRed active:text-white"
+            >Product</a
+          >
+          <a
+            href="#"
+            class="hover:text-brightRed duration-300 w-full text-center py-1 active:bg-brightRed active:text-white"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="hover:text-brightRed duration-300 w-full text-center py-1 active:bg-brightRed active:text-white"
+            >Careers</a
+          >
+          <a
+            href="#"
+            class="hover:text-brightRed duration-300 w-full text-center py-1 active:bg-brightRed active:text-white"
+            >Community</a
+          >
+        </div>
       </div>
     </nav>
 
@@ -52,7 +106,7 @@
           </p>
           <div class="flex justify-center md:justify-start">
             <button
-              class="py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+              class="py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight duration-300"
             >
               Get Started
             </button>
@@ -244,7 +298,7 @@
         <!-- Button -->
         <div class="my-16">
           <button
-            class="py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+            class="py-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight duration-300"
           >
             Get Started
           </button>
@@ -267,7 +321,7 @@
         <!-- Button -->
         <div>
           <button
-            class="py-3 px-6 pt-2 text-brightRed bg-white shadow-2xl rounded-full hover:bg-gray-900"
+            class="py-3 px-6 pt-2 text-brightRed bg-white shadow-2xl rounded-full hover:bg-gray-900 duration-300"
           >
             Get Started
           </button>
@@ -341,7 +395,7 @@
                 placeholder="Updated in your inbox"
               />
               <button
-                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none duration-300"
               >
                 Go
               </button>
@@ -353,5 +407,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Javascript -->
+    <script src="src//js/script.js"></script>
   </body>
 </html>
